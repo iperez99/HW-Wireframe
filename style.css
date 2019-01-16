@@ -10,62 +10,64 @@ body {
     width: 960px;
     font-size: 18px;
 }
-
-header, nav, section, aside, footer {
-    background: #ebebeb;
-    width: 495px
-    
-}
-
-
 div {
-    
-    margin: 0 auto;
-    width: 495px;
+    width: 960px;
+    margin-left: 220px;
 }
+
+header, nav, footer {
+    background: #ebebeb;
+    width: 960px;
+}
+
+header { 
+    padding: 25px;
+    margin-bottom: 10px;   
+}
+
+nav {
+    padding: 25px;
+    margin-bottom: 15px;
+    
+}
+
+aside {
+    background-color: #ebebeb;
+    padding: 25px;
+    float: right;
+    width: 47%;
+    height: 220px;
+    margin-bottom: 15px;
+    margin-left: 13px;
+}
+
+section {
+    width: 495px;
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 10px;
+    float: left;
+    height: 220px;
+}
+
 article {
     color: #ebebeb;
     background: #777;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
 }
 
-section {
+footer {
     clear: both;
-    padding: 10px;
-    margin-bottom: 10px;
-
-    float: left;
-}
-
-header { 
+    margin-top: 10px;
     padding: 20px;
-    margin-bottom: 20px;
     
-}
-
-nav {
-    padding: 20px;
-    margin-bottom: 20px;
-
-
-}
-aside {
-    
-    /*padding: 10px;
-    margin-bottom: 10px*/ 
-    float: right;
-    
-  height: 200px;
-  border: 1px solid #eee;
-  padding: 20px;
-  /*float: left;*/
- 
-}
-
-footer { 
-    clear: both
 }
